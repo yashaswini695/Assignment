@@ -1,9 +1,12 @@
-i#include <stdio.h>
+#include <stdio.h>
  void main () {
          int n;
-         printf("1.B.tech CSE");
+	 printf("enter the n value");
+	 scanf("%d",&n);
+         printf("B-tech in CSE");
          if(n==1)
          {
                  printf("you have choosen B.tech CSE");
          }
+	 return 0;
  }
